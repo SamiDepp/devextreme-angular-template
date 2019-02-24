@@ -1,0 +1,11 @@
+{
+    "/achatR18/api/*": {
+        "target": "http://localhost:8080/",
+        "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": false,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+}
